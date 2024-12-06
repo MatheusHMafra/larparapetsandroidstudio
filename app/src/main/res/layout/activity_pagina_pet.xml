@@ -1,0 +1,69 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".PaginaPet">
+
+    <ImageView
+        android:id="@+id/petImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/petName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rex"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/petBreed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beagle"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/petLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Itajaí-SC"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/petAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 ano"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/petGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Macho"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/petDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rex é um adorável Labrador Retriever cheio de energia e amor para dar. Ele adora brincar ao ar livre, especialmente com bolas de tênis. Rex é muito sociável e se dá bem com crianças e outros animais. Ele está procurando por uma família amorosa que possa lhe dar muita atenção e exercícios regulares."
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/adoptButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adotar Rex"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
